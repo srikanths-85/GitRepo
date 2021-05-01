@@ -1,0 +1,7 @@
+create a git repository with the name "GitRepo" using command prompt and sync up with the github.
+The Team A and Team B were working on the same project. Team A going to commit the work done by them with the name "commit no 1". 
+Team A forgot to add a few changes in previous commit so commit few changes and Modifying the commit message with "First Commit Modified". Make a note of commit ID. 
+Clone the same repo in another location which is going to use by Team B. Modify the git username and email for that repository alone and add a gitignore file with certain 
+extension/specific file name and commit it with the commit ID(got from the previous commit of Team A). In the team A cloned repo, revert the last commit (i.e., git ignore commit made by Team B and commit it to remote).
+Now the Team B create the pre-commit hook which validate the commit message either length/regex. Then create the New Branch with the name "GitBranch" by using the command prompt and sync it. 
+Team B works on the same branch and commit it. pust to remote and create PR and merge it. Finally share the github URL, CLI logs.
